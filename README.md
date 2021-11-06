@@ -21,7 +21,7 @@ python Load_Data.py
 ```
 
 Note: BuildPkl_Batch*.py and Load_Data.py are provided by author, small changes are made. 
-Original code: https://github.com/rdbraatz/data-driven- prediction-of-battery-cycle-life-before-capacity-degradation
+Original code: https://github.com/rdbraatz/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation
 
 ### Feature Extraction
 
