@@ -57,7 +57,7 @@ class cnn_model_kp(nn.Module):
             nn.Linear(in_features=32, out_features=self.hidden_dim),
         )
         self.dropout_layer_cnn = nn.Dropout(p=0.5)
-        self.dropout_layer_fc = nn.Dropout(p=0.0)
+        self.dropout_layer_fc = nn.Dropout(p=0.1)
 
         self.fc = nn.Sequential(
             nn.Linear(in_features=input_fc_dim, out_features=self.hidden_dim),
